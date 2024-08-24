@@ -1,0 +1,17 @@
+{
+  "name": "@site/core",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "sst bind vitest",
+    "typecheck": "tsc -noEmit"
+  },
+  "devDependencies": {
+    "vitest": "^2.0.5",
+    "@types/node": "^22.5.0",
+    "sst": "^3.0.60"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  }
+}
